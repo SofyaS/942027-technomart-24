@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Софья](https://up.htmlacademy.ru/htmlcss/24/user/942027).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Корелин](https://htmlacademy.ru/profile/maxzbest).
 
 ---
 
