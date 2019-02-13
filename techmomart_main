@@ -8,12 +8,12 @@
     <header class='main-header'>
       <nav class='main-navigation'>
         <a class='main-picture' href='index.html'>Техномарт</a>
+         <img src="logo.svg" width="110" height="18" alt="Логотип Техномарт">
           <form>
             <input type='search' value="Поиск">
             <button type='submit'>Поиск</button>
           </form>
           <ul class='site-navigation'>
-            <! я не понмиаю, как прафильно оформить поиск, закладки, корзину и связать это с кнопкой оформить заказ>
             <li><a href="main.html">Главная</a></li>
             <li><a href='company.html'>Компания</a></li>
             <li><a href="catalog.html">Каталог</a></li>
@@ -42,7 +42,6 @@
     <section class='company'>
       <h2>КОМПАНИЯ "ТЕХНОМАРТ"</h2>
       <p class='company-description'>
-        <! как сделать ширину абзаца? или это еще рано?>
         Настоящий мужской шопинг начинается здесь!
         Огромный выбор товаров для ремонта и строительства не
         оставит равнодушным любителей сэкономить на гастарбайтерах.
@@ -61,7 +60,7 @@
     <section class='contacts'>
       <b> Вы можете забрать товар сами, <br>
         заехав в наш офис: </b>
-        <img src="img_map.jpg" width="100" height="100"
+        <img src="map.png" width="300" height="158"
         alt="Карта проезда">
          <a class='button' href='chat.html'>Заблудились?Напишите нам!</a>
     </section>

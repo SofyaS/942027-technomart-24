@@ -7,13 +7,15 @@
   <body>
     <header class='main-header'>
       <nav class='main-navigation'>
-        <a class='main-picture' href='index.html'>Техномарт</a>
+        <a class='main-picture' href='index.html'>
+          Техномарт
+          <img src="logo.svg" width="110" height="18" alt="Логотип Техномарт">
+        </a>
           <form>
             <input type='search' value="Поиск">
             <button type='submit'>Поиск</button>
           </form>
           <ul class='site-navigation'>
-            <! я не понмиаю, как правильно оформить поиск, закладки, корзину и связать это с кнопкой оформить заказ :(>
             <li><a href="main.html">Главная</a></li>
             <li><a href='company.html'>Компания</a></li>
             <li><a href="catalog.html">Каталог</a></li>
@@ -27,7 +29,7 @@
               <li><a href='orders.html'>Мои заказы</a></li>
               <li><a href='personal.html'>Личный кабинет</a></li>
             </ul>
-            <a class='button' href="main.html"> <!кнопка выхода из лк в моем воображении здесь>
+            <a class='button' href="main.html"> </a>
           </form>
           <div>
             Интернет-магазин<br>
@@ -40,7 +42,7 @@
           </div>
       </nav>
     </header>
-    <a href="main.html"><!лого с домиком></a>
+    <a href="main.html"></a>
     <a href="catalog.html">Каталог</a>
     <a href='tools.html'>Инструмент</a>
     <a href='perforators.html'>Перфораторы</a>
@@ -88,7 +90,7 @@
               <a class='button' href='Y'>В ЗАКЛАДКИ</a>
               <p class='old-price'>22 500 Р.></p>
               <p class='new-price'>15 500 Р.></p>
-              <img scr='perf.logo' width='10' height="10">
+              <img scr='bosch_3000.png' width='218' height="170" alt='Перфоратор BOSCH BFG 3000'>
           </li>
           <li class='catalog-list'>
             <h3 class='titles'>Перфоратор BOSCH BFG 6000</h3>
@@ -96,14 +98,13 @@
               <a class='button' href='Y'>В ЗАКЛАДКИ</a>
               <p class='old-price'>30 500 Р.></p>
               <p class='new-price'>25 500 Р.></p>
-              <img scr='perf.logo' width='10' height="10">
+              <img scr='bosch_6000.png' width='218' height="170" alt="Перфоратор BOSCH BFG 6000">
           </li>
           <li class='catalog-list'>
             <h3 class='titles'>Перфоратор BOSCH BFG 2000</h3>
               <a class='button' href='X'>КУПИТЬ</a>
               <a class='button' href='Y'>В ЗАКЛАДКИ</a>
               <p class='new-price'>12 500 Р.></p>
-              <img scr='perf.logo' width='10' height="10"><!new в уголке вызвал вопрос>
           </li>
           <li class='catalog-list'>
             <h3 class='titles'>Перфоратор BOSCH BFG 3000</h3>
@@ -111,7 +112,7 @@
               <a class='button' href='Y'>В ЗАКЛАДКИ</a>
               <p class='old-price'>22 500 Р.></p>
               <p class='new-price'>15 500 Р.></p>
-              <img scr='perf.logo' width='10' height="10">
+              <img scr='bosch_3000.png' width='218' height="170" alt='Перфоратор BOSCH BFG 3000'>
           </li>
           <li class='catalog-list'>
             <h3 class='titles'>Перфоратор BOSCH BFG 6000</h3>
@@ -119,22 +120,22 @@
               <a class='button' href='Y'>В ЗАКЛАДКИ</a>
               <p class='old-price'>30 500 Р.></p>
               <p class='new-price'>25 500 Р.></p>
-              <img scr='perf.logo' width='10' height="10"><!new в уголке вызвал вопрос>
+              <img scr='bosch_6000.png' width='218' height="170" alt="Перфоратор BOSCH BFG 6000">
           </li>
           <li class='catalog-list'>
             <h3 class='titles'>Перфоратор BOSCH BFG 2000</h3>
               <a class='button' href='X'>КУПИТЬ</a>
               <a class='button' href='Y'>В ЗАКЛАДКИ</a>
               <p class='new-price'>12 500 Р.></p>
-              <img scr='perf.logo' width='10' height="10">
+              <img scr='bosch_3000.png' width='218' height="170" alt="Перфоратор BOSCH BFG 2000">
           </li>
           <li class='catalog-list'>
-            <h3 class='titles'>Перфоратор BOSCH</h3>
+            <h3 class='titles'>Перфоратор BOSCH BFG 3000</h3>
               <a class='button' href='X'>КУПИТЬ</a>
               <a class='button' href='Y'>В ЗАКЛАДКИ</a>
               <p class='old-price'>22 500 Р.></p>
               <p class='new-price'>15 500 Р.></p>
-              <img scr='perf.logo' width='10' height="10"><!new в уголке вызвал вопрос>
+              <img scr='bosch_3000.png' width='218' height="170" alt="Перфоратор BOSCH BFG 3000">
           </li>
           <li class='catalog-list'>
             <h3 class='titles'>Перфоратор BOSCH BFG 6000</h3>
@@ -142,19 +143,21 @@
               <a class='button' href='Y'>В ЗАКЛАДКИ</a>
               <p class='old-price'>30 500 Р.></p>
               <p class='new-price'>25 500 Р.></p>
-              <img scr='perf.logo' width='10' height="10">
+              <img scr='bosch_6000.png' width='218' height="170" alt="Перфоратор BOSCH BFG 6000">
           </li>
           <li class='catalog-list'>
             <h3 class='titles'>Перфоратор BOSCH BFG 2000</h3>
               <a class='button' href='X'>КУПИТЬ</a>
               <a class='button' href='Y'>В ЗАКЛАДКИ</a>
               <p class='new-price'>12 500 Р.></p>
-              <img scr='perf.logo' width='10' height="10">
+              <img scr='bosch_3000.png' width='218' height="170" alt="Перфоратор BOSCH BFG 2000">
           </li>
         </ul>
       </section>
       <footer class='main-footer'>
-        <a class='main-picture' href='index.html'>Техномарт</a>
+        <a class='main-picture' href='index.html'>Техномарт
+         <img src="logo.svg" width="110" height="18" alt="Логотип Техномарт">
+        </a>
         <ul class='site-navigation'>
           <li><a href='company.html'>Компания</a></li>
           <li><a href="news.html">Новости</a></li>
