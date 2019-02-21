@@ -1,0 +1,379 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Cuprum', sans-serif;
+  font-size:17px;
+  line-height:17px;
+  font-weight:normal;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: none;
+}
+
+.main-picture {
+  background-color: #ee3643;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.buying a:hover,
+.remember a:hover {
+  background-color: #ca2c37;
+}
+
+.buying a:focus,
+.remember a:focus {
+  background-color: #ba2732;
+}
+
+.user-menu a:hover {
+  background-color: #212a3a;
+}
+
+.user-menu a:focus {
+  background-color: #161d29;
+}
+
+.order a:hover,
+.buy-button:hover {
+  background-color: #5fbb2d;
+}
+
+.order a:focus {
+  background-color: #518534;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.buy-button:focus {
+  background-color: #518534;
+}
+
+.remember-button:hover {
+  border-color: #32425c;
+}
+
+.remember-button:focus {
+  border-color: #bdc6ca;
+  color: rgba(50, 66, 92, 0.3);
+}
+
+.main-navigation {
+  background-color: #f4f7f9;
+}
+
+.navigation {
+  background-color: #32425c;
+}
+
+.company-info a:hover,
+.footer-copyright a:hover {
+  text-decoration:underline;
+}
+
+.site-navigation-low a:focus {
+  color: rgba(241, 245, 247, 0.5);
+  text-decoration:none;
+}
+
+.footer-copyright a:focus {
+  color: #ee3643;
+  text-decoration:none;
+}
+
+.second-navigation a:focus {
+  color: rgba(255, 209, 128, 0.5);
+  text-decoration:none;
+}
+
+.about-company {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: left;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.phone {
+  font-size: 21px;
+  line-height: 21px;
+  text-align: left;
+  color: #ee3643;
+}
+
+.adress {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #32425c;
+}
+
+.login-password a,
+.personal-data a {
+  font-size: 21px;
+  line-height: 21px;
+  text-align: left;
+  color: #000000;
+}
+
+.login-password a:hover,
+.cabinet a:hover {
+  color: #ee3643;
+}
+
+.login-password a:focus,
+.personal-data a:focus {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.cabinet a:focus {
+  color: rgba(50, 66, 92, 0.3)
+}
+
+.second-navigation a {
+  color: #ffd180;
+}
+
+.buying,
+.user-menu,
+.order,
+.remember {
+  font-size:17px;
+  line-height:18px;
+  background-color: #293449;
+  color: #ffffff;
+  text-align: left;
+}
+
+.order-making {
+  font-size:17px;
+  line-height:18px;
+  background-color: #63a63e;
+  color: #ffffff;
+  text-align: left;
+}
+
+.remember-order {
+  font-size:17px;
+  line-height:18px;
+  background-color: #ee3643;
+  color: #ffffff;
+  text-align: left;
+}
+
+.cabinet a {
+  font-size:16px;
+  line-height:18px;
+  color: #32425c;
+  text-align: left;
+  text-decoration:underline;
+}
+
+.site-navigation a:hover {
+  background-color: #293449;
+}
+
+.site-navigation a:focus {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.filter button {
+  border-color: #e5e5e5;
+  background-color: #ffffff;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.navigation,
+.login-password,
+.site-navigation,
+.site-navigation-low,
+.second-navigation,
+.filter-main ul,
+.perforators ul {
+  list-style: none;
+}
+
+.company,
+.contacts {
+  background-color: #ffffff;
+}
+
+.company a {
+  font-size:14px;
+  line-height:18px;
+  background-color: #ee3643;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.company-name,
+.contacts {
+  font-size:30px;
+  line-height:30px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.shopping,
+.contacts b {
+    font-family: 'PT Sans', sans-serif;
+    font-size:13px;
+    line-height:24px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+}
+
+.delivery.companies {
+  font-size:18px;
+  line-height:20px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: left;
+  text-transform: none;
+}
+
+.lost {
+  font-size:14px;
+  line-height:18px;
+  background-color: #ee3643;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.company-info {
+  background-color: #32425c;
+}
+
+.company-links {
+  background-color: #293449;
+}
+
+.footer-contacts {
+  font-size:18px;
+  line-height:24px;
+  color: #f3f7f9;
+  text-align: left;
+  font-style: normal;
+}
+
+.footer-copyright {
+  font-size:16px;
+  line-height:18px;
+  color: #ffffff;
+  text-align: left;
+  font-style: normal;
+}
+
+.footer-copyright a {
+  font-size:16px;
+  line-height:18px;
+  color: #ffd180;
+  text-align: left;
+  font-style: normal;
+}
+
+.filter {
+  background-color: #ffffff;
+}
+
+.manufacturer {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size:17px;
+  line-height:30px;
+  color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.accum-type {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size:17px;
+  line-height:30px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.manufacturer li {
+  font-family: 'PT Sans', sans-serif;
+  font-size:15px;
+  line-height:20px;
+  color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.filter-main button {
+  font-family: 'PT Sans', sans-serif;
+  font-size:13px;
+  line-height:18px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.titles {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size:18px;
+  line-height:20px;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: none;
+}
+
+.old-price {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size:17px;
+  line-height:18px;
+  color: #999999;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration:line-through;
+}
+
+.new-price {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size:17px;
+  line-height:18px;
+  color: #ffffff;
+  background-color: #ee3643;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.buy-button {
+  font-size:14px;
+  line-height:18px;
+  color: #ffffff;
+  background-color: #63a63e;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.remember-button {
+  font-size:14px;
+  line-height:18px;
+  color: ##32425c;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  border-color: #63a63e;
+}
