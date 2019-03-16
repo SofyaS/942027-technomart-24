@@ -13,6 +13,7 @@
   <body>
     <header class='main-header'>
       <nav class='main-navigation'>
+        <div class='user-buying'>
       <section class='buying'>
         <a class='main-picture' href='index.html'>
          <img src="img/logo.png" width="110" height="18" alt="Логотип Техномарт">
@@ -31,17 +32,8 @@
         <section class='order'>
           <a href='order' class='order-making'>Оформить заказ</a>
         </section>
-        <section class='navigation'>
-            <ul class='site-navigation'>
-              <li><a href="main.html">Главная</a></li>
-              <li><a href='company.html'>Компания</a></li>
-              <li><a href="catalog.html">Каталог</a></li>
-              <li><a href="news.html">Новости</a></li>
-              <li><a href="offers.html">Спецпредложения</a></li>
-              <li><a href="delivery.html">Доставка</a></li>
-              <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-          </section>
+      </div>
+        <div class='user-main'>
           <section class='personal-data'>
              <p>
                <a href='#'>
@@ -60,13 +52,27 @@
               строительных материалов<br>
               и инструментов для ремонта
             </div>
+          </section>
+          <section class='phone'>
             <div class='phone'>
-              +7 (812) 555-05-55
+              <a href='tel:+78125550555'> +7 (812) 555 05 55</a>
             </div>
             <div class='adress'>
               г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
             </div>
           </section>
+        </div>
+          <div class='navigation'>
+              <ul class='site-navigation'>
+                <li><a href="main.html">Главная</a></li>
+                <li><a href='company.html'>Компания</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="offers.html">Спецпредложения</a></li>
+                <li><a href="delivery.html">Доставка</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+              </ul>
+            </div>
         </nav>
       </header>
     <main class='perforators-description'>
@@ -78,48 +84,48 @@
     <h2 class='visually-hidden'> Фильтр товаров </h2>
     <form class='filter' method='get' action='https://echo.htmlacademy.ru'>
      <fieldset>
-      <legend class='manufacturer'>ПРОИЗВОДИТЕЛИ</legend>
+      <legend class='manufacturer'>Производители</legend>
       <ul>
         <li>
           <input type="checkbox" name="BOSCH" id="bosch" checked>
-          <label for="bosch">BOSCH</label>
+          <label for="bosch">Bosch</label>
         </li>
         <li>
           <input type="checkbox" name="ИНТЕРСКОЛ" id="interskol">
-          <label for="interskol">ИНТЕРСКОЛ</label>
+          <label for="interskol">Интерскол</label>
         </li>
         <li>
           <input type="checkbox" name="MAKITA" id="makita" checked>
-          <label for="makita">MAKITA</label>
+          <label for="makita">Makita</label>
         </li>
         <li>
           <input type="checkbox" name="DEWALT" id="dewalt">
-          <label for="dewalt">DEWALT</label>
+          <label for="dewalt">Dewalt</label>
         </li>
         <li>
           <input type="checkbox" name="HITACHI" id="hitachi">
-          <label for="hitachi">HITACHI</label>
+          <label for="hitachi">Hitachi</label>
         </li>
       </ul>
     </fieldset>
     <fieldset>
-      <legend class='accum-type'> ПИТАНИЕ:</legend>
+      <legend class='accum-type'> Питание:</legend>
         <ul>
           <li class='filter-accum'>
            <input type="radio" name="accum" value="battery" id='filter-battery' checked>
-            <label for='filter-battery'>АККУМУЛЯТОРНЫЕ</label>
+            <label for='filter-battery'>Аккумуляторные</label>
           </li>
           <li class='filter-accum'>
             <input type="radio" name="accum" value="network-charging" id='filter-network'>
-            <label for='filter-network'> СЕТЕВЫЕ </label>
+            <label for='filter-network'> Сетевые </label>
           </li>
         </ul>
     </fieldset>
-    <button type="submit" value="ПОКАЗАТЬ"> ПОКАЗАТЬ </button>
+    <button type="submit" value="ПОКАЗАТЬ"> Показать </button>
   </form>
   </section>
     <section class='perforators'>
-      <h2>ПЕРФОРАТОРЫ</h2>
+      <h2>Перфораторы</h2>
         <ul class='catalog-list'>
           <li class='catalog-list'>
             <h3 class='titles'>Перфоратор BOSCH BFG 3000</h3>
@@ -135,11 +141,11 @@
           </li>
           <li class='catalog-list'>
             <h3 class='titles'>Перфоратор BOSCH BFG 2000</h3>
-            <button class='buy-button' type='submit'> КУПИТЬ </button>
+            <button class='buy-button' type='submit'> Купить </button>
               <form class='buying-perforators' action='https://echo.htmlacademy.ru' method='post'>
                 Товар добавлен в корзину
-                <a href='#'class='final-buying'>ОФОРМИТЬ ЗАКАЗ</a>
-                <a href='#' class='continue-buying'>ПРОДОЛЖИТЬ ПОКУПКИ </a>
+                <a href='#'class='final-buying'>Оформить заказ</a>
+                <a href='#' class='continue-buying'>Продолжить покупки </a>
                 <button class='close-buying' type='button'> Закрыть </button>
               </form>
             <button class='remember-button' type='submit'> В закладки </button>
@@ -200,9 +206,11 @@
           <li><a href='tools.html'>Инструменты</a></li>
           <li><a href="offers.html">Спецпредложения</a></li>
         </ul>
-        <address class='footer-contacts'>
-          г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-          +7 (812) 555-05-55
+        <adress class='footer-contacts'>
+          <ul>
+            <li>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</li>
+            <li><a href='tel:+78125550555'> +7 (812) 555 05 55</a></li>
+          </ul>
         </adress>
       </section>
     <section class='company-links'>
@@ -218,7 +226,7 @@
        </p>
        <p class='footer-copyright'>
        Обратная связь:
-        <a href="mail@htmlacademy.ru">mail@htmlacademy.ru
+        <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru
         </a>
       </p>
       <div>

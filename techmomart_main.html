@@ -11,61 +11,64 @@
     <link href="css/techno.css" rel="stylesheet">
   </head>
   <body>
-    <header class='main-header'>
-      <nav class='main-navigation'>
-      <section class='buying'>
-        <a class='main-picture' href='index.html'>
-         <img src="img/logo.png" width="110" height="18" alt="Логотип Техномарт">
-       </a>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <div class="container">
+          <div class="menu-top">
+           <a class="main-picture" href="#">
+             Техномарт
+           </a>
+         <div class="search">
           <form>
-            <input type='search' placeholder="Поиск">
-            <button type='submit'>Поиск</button>
+            <input type="search" placeholder="Поиск:" id="search">
+            <label for="search" class="label-for-search"></label>
           </form>
-        </section>
-        <section class='user-menu'>
-          <a class='main-remember' href='bookmarks.html'>Закладки: 0</a>
-          <a class='main-buying' href='cart.html'>Корзина: 0</a>
-        </section>
-        <section class='order'>
-          <a href='order' class='order-making'>Оформить заказ</a>
-        </section>
-      <section class='navigation'>
-          <ul class='site-navigation'>
-            <li><a href="main.html">Главная</a></li>
-            <li><a href='company.html'>Компания</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="offers.html">Спецпредложения</a></li>
-            <li><a href="delivery.html">Доставка</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-          </ul>
-        </section>
-        <section class='login-password'>
-          <form>
-            <p>
-              <a class='login-link' href='login.html'>Войти</a>
-            </p>
-            <p>
-              <a class='registration-link' href='registration.html'>Регистрация</a>
-            </p>
-          </form>
-          <div class="about-company">
+        </div>
+        <div class="user-menu">
+          <a class="bookmarks" href="bookmarks.html">Закладки: 0</a>
+          <a class="cart" href="cart.html">Корзина: 0</a>
+        </div>
+        <div class='order'>
+          <a href='order.html' class='order-making'>Оформить заказ</a>
+        </div>
+      </div>
+    </nav>
+      <div class="user-main">
+        <div class="container">
+          <section class="about-company">
             Интернет-магазин<br>
             строительных материалов<br>
             и инструментов для ремонта
-          </div>
-          <div class='phone'>
-            +7 (812) 555-05-55
-          </div>
-          <div class='adress'>
+          </section>
+          <div class="data">
+           <div class="phone">
+            <a href="tel:+78125550555"> +7 (812) 555 05 55</a>
+           </div>
+           <div class="adress">
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+           </div>
+        </div>
+        <div class="login-password">
+              <a class="login" href="login.html">Войти</a>
+              <a class="password" href="registration.html">Регистрация</a>
+        </div>
+        <div class="navigation">
+            <ul class="site-navigation">
+              <li><a href="main.html">Главная</a></li>
+              <li><a href='company.html'>Компания</a></li>
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="offers.html">Спецпредложения</a></li>
+              <li><a href="delivery.html">Доставка</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
           </div>
-        </section>
-      </nav>
+        </div>
+        </div>
     </header>
   <main class='description'>
     <section class='company'>
-      <h2 class='company-name'>КОМПАНИЯ "ТЕХНОМАРТ"</h2>
+      <h2 class='company-name'>Компания "ТЕХНОМАРТ"</h2>
       <h3 class='visually-hidden shopping'>Описание компании</h3>
         Настоящий мужской шопинг начинается здесь!
         Огромный выбор товаров для ремонта и строительства не
@@ -78,14 +81,14 @@
           <li><h3 class='delivery.companies'>Автотрейдинг</h3></li>
           <li><h3 class='delivery.companies'>ЖелДорЭкспедиция</h3></li>
         </ul>
-      <a href='company.html'>ПОДРОБНЕЕ О КОМПАНИИ</a>
+      <a href='company.html'>Подробнее о компании</a>
     </section>
-    <section class='contacts'>КОНТАКТЫ
+    <section class='contacts'>Контакты
       <b> Вы можете забрать товар сами, <br>
         заехав в наш офис: </b>
         <img src="img/map.png" width="300" height="158"
         alt="Офис компании по адресу улица Большая Конюшенная 19/8, Санкт-Петербург">
-         <button class='lost' type='submit'>Заблудились?Напишите нам!</button>
+         <button class='lost' type='submit'>Заблудились? Напишите нам!</button>
            <form class='question' action='https://echo.htmlacademy.ru' method='post'>
              <button class='close-map' type='button'> Закрыть
              </button>
@@ -101,7 +104,7 @@
                <label for='letter'> Текст письма: </label>
                <input id='letter' type='text' name='text' placeholder="В свободной форме">
             </p>
-            <button class='button' type='submit'>ОТПРАВИТЬ </button>
+            <button class='button' type='submit'>Отправить </button>
            </form>
     </section>
   </main>
@@ -124,8 +127,10 @@
         <li><a href="offers.html">Спецпредложения</a></li>
       </ul>
       <adress class='footer-contacts'>
-        г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-        +7 (812) 555-05-55
+        <ul>
+          <li>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</li>
+          <li><a href='tel:+78125550555'> +7 (812) 555 05 55</a></li>
+        </ul>
       </adress>
     </section>
       <section class='company-links'>
@@ -141,7 +146,7 @@
      </p>
      <p class='footer-copyright'>
      Обратная связь:
-      <a href="mail@htmlacademy.ru">mail@htmlacademy.ru
+      <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru
       </a>
     </p>
     <div>
